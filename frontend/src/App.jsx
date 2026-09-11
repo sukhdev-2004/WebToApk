@@ -314,7 +314,7 @@ function App() {
                 <input
                   id="appName"
                   type="text"
-                  placeholder="My Website App"
+                  placeholder="My App Name"
                   value={appName}
                   onChange={(e) => setAppName(e.target.value)}
                   disabled={loading}
